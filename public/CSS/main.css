@@ -1,0 +1,131 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+}
+.type {
+   display: flex;
+   flex-direction: column;
+   margin: 5%;
+   width: 200%;
+}
+
+.btn {
+    border-radius: 10%;
+    padding: 3% 5%;
+    border-color: aqua;
+    background-color: white;
+    color: aqua;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: -1% -1% 0%;
+    border: solid black;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+.v1 {
+    border-left: solid black;
+    height: 5%;
+    margin-left: 50%;
+    
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+.btns {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    border: solid black;
+}
+.btns button {
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.today {
+    display: flex;
+}
+
+.first, .second {
+    flex-basis: 50%;
+    margin: 5%;
+    border: solid black;
+    padding: 0% 5%;
+    background-color: aqua;
+}
+.first input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.in {
+    display: flex;
+    justify-content: space-between;
+}
+.month {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.month input{
+     margin: 2% auto;
+     padding: 0% 1%;
+     background-color: greenyellow;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.monthData {
+    border: solid black;
+    background-color: greenyellow;
+    margin: 2% 3%;
+    text-align: center;
+}
+
+.year{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.yearData {
+    background-color: greenyellow;
+    border: solid black;
+}
+
+.year input{
+    margin: 2% auto;
+    padding: 0% 1%;
+    background-color: greenyellow;
+}
+
+.find {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .find > *{
+    margin: 1%;
+} */
+/* .find div {
+    margin: 1%;
+} */
